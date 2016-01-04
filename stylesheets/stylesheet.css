@@ -143,6 +143,11 @@ ul li:before {
   line-height: 16px;
 }
 
+ul li:before test{
+  content: "";
+
+}
+
 blockquote {
   color: #aaa;
   padding-left: 10px;
