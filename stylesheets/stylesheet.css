@@ -145,7 +145,11 @@ ul li:before.test{
 
 ul li:before {
   content: "";
-
+  font-size: 13px;
+  color: #b5e853;
+  margin-left: -37px;
+  margin-right: 21px;
+  line-height: 16px;
 }
 
 blockquote {
