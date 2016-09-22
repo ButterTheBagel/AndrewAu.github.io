@@ -1,0 +1,22 @@
+{
+  "name": "a-au.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/A-Au/A-Au.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/A-Au/A-Au.github.io/issues"
+  },
+  "homepage": "https://github.com/A-Au/A-Au.github.io#readme",
+  "devDependencies": {
+    "gulp-inject": "^4.1.0"
+  }
+}
