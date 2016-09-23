@@ -198,9 +198,9 @@ a {
 .cf {
   zoom:1;
 }
-.social-icons:visited{
+.social-icons a:visited{
   color: #000000;
 }
-.social-icons{
+.social-icons a{
   color: #000000;
 }
