@@ -25,6 +25,22 @@
       </div>
     </header>
     
+    <amp-analytics type="googleanalytics" id="analytics1">
+    <script type="application/json">
+    {
+      "vars": {
+        "account": "UA-84674985-1"
+      },
+      "triggers": {
+        "trackPageview": {
+          "on": "visible",
+          "request": "pageview"
+        }
+      }
+    }
+    </script>
+    </amp-analytics>
+    
     <div class="container">
       <section id="main_content">
         <h2>Education:</h2>
@@ -73,6 +89,7 @@
 
     <amp-ad width=300 height=250
             type="adsense"
+            layout="fixed"
             data-ad-client="ca-pub-9063308126174413"
             data-ad-slot="5892434521"></amp-ad>
 
