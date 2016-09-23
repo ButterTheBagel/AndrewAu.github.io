@@ -9,7 +9,6 @@ body {
 }
 .container {
   width: 90%;
-  max-width: 600px;
   margin: 0 auto;
 }
 section {
@@ -198,4 +197,10 @@ a {
 }
 .cf {
   zoom:1;
+}
+.social-icons:visited{
+  color: #000000;
+}
+.social-icons{
+  color: #000000;
 }
