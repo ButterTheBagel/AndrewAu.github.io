@@ -201,9 +201,8 @@ a {
 }
 .social-icons:visited{
   color: #000000;
-  outline: 0;
 }
 .social-icons{
   color: #000000;
-  outline: 0;
+  text-shadow: none;
 }
