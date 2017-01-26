@@ -21,7 +21,7 @@
     "gulp-clean-css": "^2.0.12",
     "gulp-concat": "^2.6.0",
     "gulp-inject": "^4.1.0",
-    "gulp-inject-file": "0.0.17"
+    "gulp-inject-file": "0.0.18"
   },
   "dependencies": {}
 }
