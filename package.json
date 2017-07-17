@@ -1,7 +1,7 @@
 {
   "name": "a-au.github.io",
   "version": "1.0.0",
-  "description": "",
+  "description": "Andrew Au's personal website using AMP HTML",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -18,9 +18,9 @@
   "homepage": "https://github.com/A-Au/A-Au.github.io#readme",
   "devDependencies": {
     "gulp-clean": "^0.3.2",
-    "gulp-clean-css": "^2.0.12",
-    "gulp-concat": "^2.6.0",
-    "gulp-inject": "^4.1.0",
+    "gulp-clean-css": "^3.7.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-inject": "^4.2.0",
     "gulp-inject-file": "0.0.18"
   },
   "dependencies": {}
