@@ -25,5 +25,7 @@
     "gulp-inject": "^4.2.0",
     "gulp-inject-file": "0.0.18"
   },
-  "dependencies": {}
+  "dependencies": {
+    "npm": "^6.0.1"
+  }
 }
