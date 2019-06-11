@@ -17,14 +17,14 @@
   },
   "homepage": "https://github.com/A-Au/A-Au.github.io#readme",
   "devDependencies": {
-    "gulp": "^3.9.1",
+    "gulp": "^4.0.2",
     "gulp-clean-css": "^3.9.4",
-    "gulp-cli": "^1.4.0",
+    "gulp-cli": "^2.2.0",
     "gulp-concat": "^2.6.1",
     "gulp-inject": "^4.3.2",
-    "gulp-inject-file": "0.0.18"
+    "gulp-inject-file": "0.0.19"
   },
   "dependencies": {
-    "npm": "^6.0.1"
+    "npm": "^6.9.0"
   }
 }
