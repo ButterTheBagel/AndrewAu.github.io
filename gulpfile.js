@@ -3,22 +3,23 @@ var gulp = require('gulp'),
     concat = require('gulp-concat'),
     injectfile = require('gulp-inject-file');
 
-gulp.task('css-concat-min', function() {
-    gulp.src('./stylesheets/*.css')
+gulp.task('css-concat-min', function(done) {
+    console.log('Start CSS min phase');
+    gulp.src('stylesheets/*.css')
         .pipe(concat('merged-min.css'))
         .pipe(cleanCSS({compatibility: 'ie8'}))
         .pipe(gulp.dest('./dist/'));
+    done();
 });
 
-gulp.task('css-inject', function() {
-    gulp.src('./amp/*.html')
+gulp.task('css-inject', function(done) {
+    console.log('Start inject phase');
+    gulp.src('amp/*.html')
         .pipe(injectfile({
             pattern: '<!--\\s*inject:\\s*<filename>-->'
         }))
         .pipe(gulp.dest('./'));
-});
-
-gulp.task('default', function(done) {
-    gulp.task('start', gulp.series('css-concat-min', 'css-inject'));
     done();
 });
+
+gulp.task('default', gulp.series('css-concat-min', 'css-inject'))
